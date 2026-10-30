@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Coffee, Croissant, Dessert, CakeSlice } from 'lucide-react';
 import { cn } from "@/lib/utils";
 
@@ -25,13 +25,22 @@ type MenuItem = typeof menuData["Specialty Coffee"][0];
 export function MenuSection() {
   const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null);
 
+  const handleItemClick = (item: MenuItem) => {
+    setSelectedItem(item);
+  };
+  
+  const handleModalClose = () => {
+    setSelectedItem(null);
+  };
+
   const selectedImage = PlaceHolderImages.find(img => img.id === selectedItem?.id);
 
   return (
     <section id="menu" className="relative w-full py-12 md:py-24 lg:py-32 bg-background overflow-hidden">
+      
       {/* Decorative background elements */}
-      <div className="absolute top-0 left-0 -translate-x-1/4 -translate-y-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none" aria-hidden="true" />
-      <div className="absolute bottom-0 right-0 translate-x-1/4 translate-y-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl pointer-events-none" aria-hidden="true" />
+      <div className="absolute top-0 left-0 -translate-x-1/4 -translate-y-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-0 translate-x-1/4 translate-y-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div 
@@ -46,7 +55,7 @@ export function MenuSection() {
           </p>
         </div>
 
-        <div className="flex items-center gap-4 max-w-sm mx-auto my-12 animate-fade-in-up" style={{ animationDelay: '400ms' }} aria-hidden="true">
+        <div className="flex items-center gap-4 max-w-sm mx-auto my-12 animate-fade-in-up" style={{ animationDelay: '400ms' }}>
           <div className="h-px flex-1 bg-muted-foreground/30" />
           <Coffee className="text-primary h-6 w-6" />
           <div className="h-px flex-1 bg-muted-foreground/30" />
@@ -60,13 +69,11 @@ export function MenuSection() {
               </h3>
               <div className="grid grid-cols-3 gap-y-10 gap-x-6 sm:gap-y-12 sm:gap-x-8">
                 {items.map((item, itemIndex) => (
-                  <button 
+                  <div 
                     key={item.id} 
-                    type="button"
-                    className="flex flex-col items-center gap-3 sm:gap-4 group animate-fade-in-up focus:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-lg p-2"
-                    onClick={() => setSelectedItem(item)}
+                    className="flex flex-col items-center gap-3 sm:gap-4 cursor-pointer group animate-fade-in-up"
+                    onClick={() => handleItemClick(item)}
                     style={{ animationDelay: `${700 + categoryIndex * 400 + itemIndex * 100}ms` }}
-                    aria-label={`View details for ${item.name}`}
                   >
                     <div className={cn(
                       "flex items-center justify-center p-3 sm:p-4 rounded-full bg-muted transition-all duration-300 transform group-hover:scale-110 group-hover:bg-primary/20",
@@ -75,8 +82,8 @@ export function MenuSection() {
                         "h-10 w-10 sm:h-12 md:h-14 sm:w-12 md:w-14 text-muted-foreground transition-colors duration-300 group-hover:text-primary",
                       )} />
                     </div>
-                    <span className="text-sm sm:text-base font-medium text-center text-foreground">{item.name}</span>
-                  </button>
+                    <span className="text-sm sm:text-base font-medium text-center">{item.name}</span>
+                  </div>
                 ))}
               </div>
             </div>
@@ -84,7 +91,7 @@ export function MenuSection() {
         </div>
       </div>
 
-      <Dialog open={!!selectedItem} onOpenChange={(isOpen) => !isOpen && setSelectedItem(null)}>
+      <Dialog open={!!selectedItem} onOpenChange={(isOpen) => !isOpen && handleModalClose()}>
         <DialogContent className="sm:max-w-md p-0 overflow-hidden">
           {selectedItem && (
             <div className="flex flex-col">
@@ -94,7 +101,6 @@ export function MenuSection() {
                     src={selectedImage.imageUrl}
                     alt={selectedImage.description}
                     fill
-                    sizes="(max-width: 640px) 100vw, 500px"
                     className="object-cover"
                   />
                 </div>
@@ -104,9 +110,6 @@ export function MenuSection() {
                   <span className="font-headline text-2xl sm:text-3xl">{selectedItem.name}</span>
                   <span className="text-xl sm:text-2xl font-semibold text-primary">${selectedItem.price}</span>
                 </DialogTitle>
-                <DialogDescription className="sr-only">
-                  {selectedItem.description}
-                </DialogDescription>
               </DialogHeader>
               <div className="p-6 pt-0">
                 <p className="text-muted-foreground text-base sm:text-lg">{selectedItem.description}</p>

@@ -29,7 +29,7 @@ export function GallerySection() {
   return (
     <section id="gallery" className="w-full py-12 md:py-24 lg:py-32 overflow-hidden bg-background">
       <div className="container mx-auto px-4 md:px-6">
-        <div 
+        <div
           className="space-y-4 text-center animate-fade-in-up"
           style={{ animationDelay: '200ms' }}
         >
@@ -42,8 +42,8 @@ export function GallerySection() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 grid-rows-3 md:grid-rows-2 gap-4 md:gap-6 mt-12 max-w-4xl mx-auto h-[60vh] min-h-[700px] md:min-h-[500px]">
           {galleryImages.map((image, index) => (
-            <div 
-              key={image.id} 
+            <div
+              key={image.id}
               className={cn(
                 "relative overflow-hidden group rounded-xl shadow-lg border bg-card animate-fade-in-scale-up",
                 gridSpans[index] || "col-span-1 row-span-1"

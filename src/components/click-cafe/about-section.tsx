@@ -9,7 +9,7 @@ export function AboutSection() {
     <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-background overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
-          <div 
+          <div
             className="relative flex items-center justify-center animate-slide-in-left group"
             style={{ animationDelay: '200ms' }}
           >
@@ -27,7 +27,7 @@ export function AboutSection() {
               )}
             </div>
           </div>
-          <div 
+          <div
             className="space-y-6 animate-slide-in-right"
             style={{ animationDelay: '200ms' }}
           >
@@ -41,7 +41,7 @@ export function AboutSection() {
               <div className="h-px flex-1 bg-muted-foreground/30" />
             </div>
             <p className="max-w-[600px] text-muted-foreground text-base sm:text-lg">
-              Click Cafe was born from a passion for creating a cozy space where community and coffee come together. We source the finest beans, and our baristas pour their hearts into every cup. 
+              Click Cafe was born from a passion for creating a cozy space where community and coffee come together. We source the finest beans, and our baristas pour their hearts into every cup.
             </p>
             <p className="max-w-[600px] text-muted-foreground text-base sm:text-lg">
               Come relax, connect, and become part of our story.

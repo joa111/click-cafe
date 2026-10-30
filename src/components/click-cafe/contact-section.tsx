@@ -32,10 +32,10 @@ export function ContactSection() {
             <p className="text-primary font-semibold tracking-wide">Our Location</p>
             <h2 className="text-3xl md:text-5xl font-bold tracking-tighter font-headline">Come Say Hello</h2>
           </div>
-          
+
           {/* Map */}
-          <div 
-            className="aspect-video w-full max-w-4xl mt-8 overflow-hidden rounded-2xl shadow-lg animate-fade-in-up" 
+          <div
+            className="aspect-video w-full max-w-4xl mt-8 overflow-hidden rounded-2xl shadow-lg animate-fade-in-up"
             style={{ animationDelay: '800ms' }}
           >
             <iframe
