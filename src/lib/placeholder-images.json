@@ -3,86 +3,72 @@
     {
       "id": "hero-background",
       "description": "A beautiful sunlit coffee shop interior",
-      "imageUrl": "https://images.unsplash.com/photo-1726922855279-b4644609132e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBzaG9wJTIwYXRtb3NwaGVyZXxlbnwwfHx8fDE3NTk0ODk4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "coffee shop atmosphere"
+      "imageUrl": "https://images.unsplash.com/photo-1726922855279-b4644609132e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb2ZmZWUlMjBzaG9wJTIwYXRtb3NwaGVyZXxlbnwwfHx8fDE3NTk0ODk4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "about-illustration",
       "description": "A moka pot next to a branded Click Cafe cup on a wooden table.",
-      "imageUrl": "https://lh3.googleusercontent.com/d/1iEwQKGQwo1Trwp-NtJnkfYXHoLdHGzGa",
-      "imageHint": "moka pot coffee"
+      "imageUrl": "https://lh3.googleusercontent.com/d/1iEwQKGQwo1Trwp-NtJnkfYXHoLdHGzGa"
     },
     {
       "id": "menu-espresso",
       "description": "A close-up of a rich espresso shot",
-      "imageUrl": "https://images.unsplash.com/photo-1595831754800-7ee923123bfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXAlMjBlc3ByZXNzb3xlbnwwfHx8fDE3NTk0ODk4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cup espresso"
+      "imageUrl": "https://images.unsplash.com/photo-1595831754800-7ee923123bfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjdXAlMjBlc3ByZXNzb3xlbnwwfHx8fDE3NTk0ODk4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "menu-latte",
       "description": "A cup of coffee with delicate latte art",
-      "imageUrl": "https://images.unsplash.com/photo-1650097364104-eef0e54af0da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsYXR0ZSUyMGFydHxlbnwwfHx8fDE3NTk0Nzk3MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "latte art"
+      "imageUrl": "https://images.unsplash.com/photo-1650097364104-eef0e54af0da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxsYXR0ZSUyMGFydHxlbnwwfHx8fDE3NTk0Nzk3MTF8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "menu-cappuccino",
       "description": "A frothy cappuccino in a ceramic cup",
-      "imageUrl": "https://images.unsplash.com/photo-1659553653381-d98d2a831b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXBwdWNjaW5vJTIwZm9hbXxlbnwwfHx8fDE3NTk0MzU1OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cappuccino foam"
+      "imageUrl": "https://images.unsplash.com/photo-1659553653381-d98d2a831b8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjYXBwdWNjaW5vJTIwZm9hbXxlbnwwfHx8fDE3NTk0MzU1OTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "menu-croissant",
       "description": "A golden, flaky croissant on a plate",
-      "imageUrl": "https://images.unsplash.com/photo-1747459707229-7b1b7c8367e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmcmVzaCUyMGNyb2lzc2FudHxlbnwwfHx8fDE3NTk0ODY3OTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "fresh croissant"
+      "imageUrl": "https://images.unsplash.com/photo-1747459707229-7b1b7c8367e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmcmVzaCUyMGNyb2lzc2FudHxlbnwwfHx8fDE3NTk0ODY3OTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "menu-muffin",
       "description": "A blueberry muffin with a crumbly top",
-      "imageUrl": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibHVlYmVycnklMjBtdWZmaW58ZW58MHx8fHwxNzU5MzY4NjM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "blueberry muffin"
+      "imageUrl": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibHVlYmVycnklMjBtdWZmaW58ZW58MHx8fHwxNzU5MzY4NjM2fDA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "menu-cake",
       "description": "A slice of rich chocolate layer cake",
-      "imageUrl": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc1OTQ4MDQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "chocolate cake"
+      "imageUrl": "https://images.unsplash.com/photo-1605807646983-377bc5a76493?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaG9jb2xhdGUlMjBjYWtlfGVufDB8fHx8MTc1OTQ4MDQyM3ww&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "gallery-1",
       "description": "The modern and clean interior of the cafe",
-      "imageUrl": "https://images.unsplash.com/photo-1494346480775-936a9f0d0877?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYWZlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzU5NDc3MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cafe interior"
+      "imageUrl": "https://images.unsplash.com/photo-1494346480775-936a9f0d0877?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYWZlJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzU5NDc3MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "gallery-2",
       "description": "A barista carefully preparing a coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1740512379060-67328deaf482?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiYXJpc3RhJTIwd29ya2luZ3xlbnwwfHx8fDE3NTk0ODk4MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "barista working"
+      "imageUrl": "https://images.unsplash.com/photo-1740512379060-67328deaf482?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiYXJpc3RhJTIwd29ya2luZ3xlbnwwfHx8fDE3NTk0ODk4MzF8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "gallery-3",
       "description": "Friends enjoying coffee and conversation at a table",
-      "imageUrl": "https://images.unsplash.com/photo-1526547319484-63dce467060b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZW9wbGUlMjBkcmlua2luZyUyMGNvZmZlZXxlbnwwfHx8fDE3NTk0ODk4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "people drinking coffee"
+      "imageUrl": "https://images.unsplash.com/photo-1526547319484-63dce467060b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwZW9wbGUlMjBkcmlua2luZyUyMGNvZmZlZXxlbnwwfHx8fDE3NTk0ODk4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "gallery-4",
       "description": "A cozy corner of the cafe with comfortable seating",
-      "imageUrl": "https://images.unsplash.com/photo-1709620435386-73d1ad42155e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3p5JTIwY29ybmVyfGVufDB8fHx8MTc1OTQ4OTgzMnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "cozy corner"
+      "imageUrl": "https://images.unsplash.com/photo-1709620435386-73d1ad42155e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjb3p5JTIwY29ybmVyfGVufDB8fHx8MTc1OTQ4OTgzMnww&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "gallery-5",
       "description": "A close-up shot of freshly roasted coffee beans",
-      "imageUrl": "https://images.unsplash.com/photo-1523247452367-d68f888d4b80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29mZmVlJTIwYmVhbnN8ZW58MHx8fHwxNzU5Mzk5MzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "coffee beans"
+      "imageUrl": "https://images.unsplash.com/photo-1523247452367-d68f888d4b80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29mZmVlJTIwYmVhbnN8ZW58MHx8fHwxNzU5Mzk5MzgyfDA&ixlib=rb-4.1.0&q=80&w=1080"
     },
     {
       "id": "gallery-6",
       "description": "Detailed view of intricate latte art on a coffee",
-      "imageUrl": "https://images.unsplash.com/photo-1703663695321-17df8ee7d37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsYXR0ZSUyMGFydCUyMGRldGFpbHxlbnwwfHx8fDE3NTk0ODk4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "latte art detail"
+      "imageUrl": "https://images.unsplash.com/photo-1703663695321-17df8ee7d37f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsYXR0ZSUyMGFydCUyMGRldGFpbHxlbnwwfHx8fDE3NTk0ODk4MzJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
     }
   ]
 }

@@ -1,10 +1,28 @@
-import type {Metadata} from 'next';
+import type { Metadata } from 'next';
+import { Inter, Poppins } from 'next/font/google';
 import './globals.css';
-import { Toaster } from '@/components/ui/toaster';
+
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['400', '500', '600'],
+  variable: '--font-inter',
+  display: 'swap',
+});
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['700'],
+  variable: '--font-poppins',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'Click Cafe',
   description: 'Your favorite spot for coffee and community.',
+  icons: {
+    icon: '/logo.svg',
+    apple: '/logo.svg',
+  },
 };
 
 export default function RootLayout({
@@ -13,16 +31,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/logo.svg" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet" />
-      </head>
-      <body className="font-body antialiased">{children}<Toaster /></body>
+    <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
+      <body className="font-body antialiased">{children}</body>
     </html>
   );
 }
